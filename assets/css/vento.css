@@ -1,0 +1,173 @@
+.landing {
+    background: black;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    background: black;
+}
+
+#header .v-logo {
+    background: url(../../images/v_logo.png);
+    height: 30px;
+    background-size: 100% 100%;
+    width: 36px;
+}
+
+#one {
+    background: black;
+    color: white;
+    padding: 6em;
+}
+
+#one .section-title {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+#one p {
+    color: white;
+}
+
+.wrapper#one .icon.major {
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon .drone {
+    background: url(../../images/drone.svg);
+    height: 47px;
+    width: 70px;
+    background-size: 100% 100%;
+    transform: rotate(45deg);
+}
+
+.icon .camera360 {
+    background: url(../../images/360-degrees.png);
+    height: 47px;
+    width: 47px;
+    background-size: 100% 100%;
+    transform: rotate(45deg);
+}
+
+.icon .camera-reflex {
+    background: url(../../images/photo-camera.svg);
+    height: 40px;
+    width: 39px;
+    background-size: 100% 100%;
+    transform: rotate(45deg);
+}
+
+#header h1 {
+    height: auto;
+    width: auto;
+    position: relative;
+    margin: 0;
+}
+
+#banner .vento-logo {
+    background: url(../../images/vento_logo.png);
+    height: 40px;
+    background-size: 100% 100%;
+    width: 180px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#menu {
+    background: black;
+}
+
+#menu ul > li {
+    border-top: solid 1px white;
+}
+
+.spotlight {
+    background: black !important;
+}
+
+#banner {
+    height: 100vh !important;
+    transition: all ease-in-out 250ms;
+    background: url('../../images/bg.jpg');
+}
+
+@media screen and (max-width: 736px) {
+    #one {
+        padding: 3em 2em 1em 2em;
+    }
+
+    #banner .scrolly {
+        display: block;
+    }
+
+    #contact {
+        padding: 30px 2em !important;
+    }
+
+    .form-row {
+        flex-wrap: wrap;
+    }
+
+    .form-row .half {
+        width: 100% !important;
+    }
+
+    #footer {
+        padding-top: 0 !important;
+    }
+
+    .camera-reflex {
+        height: 31px !important;
+        width: 29px !important;
+    }
+
+    .drone {
+        height: 30px !important;
+        width: 40px !important;
+    }
+
+    .camera360 {
+        height: 31px !important;
+        width: 31px !important;
+    }
+}
+
+textarea {
+    resize: none;
+}
+
+#contact {
+    background: black;
+    padding: 6em 8em;
+}
+
+#contact .form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .half {
+    width: 48%;
+}
+
+#contact .actions {
+    margin: 2em 0;
+}
+
+#contact .field > * {
+    margin: 0 0 1em 0;
+}
+
+#footer {
+    padding: 0;
+    padding-top: 50px;
+    background-color: black !important;
+}
+
+#footer .icons {
+    font-size: 30px;
+}
